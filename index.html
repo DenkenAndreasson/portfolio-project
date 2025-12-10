@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min Profil</title>
     <link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
+    <header>   
         <h1>Dennis Andréasson</h1>
-        <p>Fullstack-Developer student</p>
+        <img src="/img/profile.jpg" alt="profilbild" id="profilbild">
+        <p id="description">Fullstack-Developer student</p>
     </header>   
     <main>
-        <div>
+        <div class="columns">
 
-            <section>
+            <section class="experiences">
                 <h2>Utbildningar:</h2>
-                    <article>
+                    <article class="object">
                         <h3>Kilafors Skola</h3>
                             <ul>
                                 <li>Grundskola</li>
@@ -25,7 +31,7 @@
                             </ul>
                     </article>
 
-                    <article>
+                    <article class="object">
                         <h3>Hälsingegymnasiet</h3>
                             <ul>
                                 <li>Teknikprogrammet med inriktning Design- & 3Danimation</li>
@@ -34,7 +40,7 @@
                             </ul>                            
                     </article>    
 
-                    <article>                        
+                    <article class="object">                        
                         <h3>NTI-Skolan</h3>
                                 <ul>
                                     <li>Komvux</li>
@@ -44,34 +50,36 @@
                     </article>
             </section>
 
-            <section>
+            <section class="experiences">
                 <h2>Tidigare tjänster:</h2>
-                    <article>
+                    <article class="object">
                         <h3>Circle K</h3>
-                            <ul>
-                                <li>Säljare</li>
-                                <li><b>2016-2020</b></li>
-                                <li><b>Ort:</b> Östersund & Bollnäs</li>
-                            </ul>
+                        <ul>
+                            <li>Säljare</li>
+                            <li><b>2016-2020</b></li>
+                            <li><b>Ort:</b> Östersund & Bollnäs</li>
+                        </ul>
                     </article>
-
-                    <article>
-                            <ul>
-                                <li>Assistant Store Manager</li>
-                                <li><b>2020-2021</b></li>
-                                <li><b>Ort:</b>Uppsala</li>
-                            </ul>
+                    
+                    <article class="object">
+                        <h3>Circle K</h3>
+                        <ul>
+                            <li>Assistant Store Manager</li>
+                            <li><b>2020-2021</b></li>
+                            <li><b>Ort:</b>Uppsala</li>
+                        </ul>
                     </article>
-
-                    <article>
-                    <ul>
+                    
+                    <article class="object">
+                        <ul>
+                        <h3>Circle K</h3>
                         <li>Store Manager</li>
                                 <li><b>2021-2023</b></li>
                                 <li><b>Ort:</b>Uppsala</li>
                             </ul>
                     </article>
 
-                    <article>
+                    <article class="object">
                         <h3>Viasales</h3>
                             <ul>
                                 <li>Säljare av IP-onlys tjänster</li>
